@@ -62,3 +62,9 @@ a{
 a:hover {
     color:red;
 }
+
+div{ 
+    display: flex;             
+    align-items: center;       
+    gap: 30px;                 
+}
