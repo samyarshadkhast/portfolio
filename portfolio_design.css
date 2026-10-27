@@ -49,6 +49,7 @@ p{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: max(100%,380px);
 }
 
 td{
@@ -94,4 +95,10 @@ h3{
     letter-spacing: 1px;
     font-size: 24px;
     font-style: italic;
+}
+
+.description{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
