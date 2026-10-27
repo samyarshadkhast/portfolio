@@ -1,14 +1,14 @@
 body{
     background-color: rgb(204, 223, 240);
     margin:0px;
-}
-
-div {
-    background-color: rgb(19, 19, 46);
     min-height:100dvh;
     display:grid;
     grid-template-rows:auto 1fr auto;
     grid-template-columns:minmax(0,1fr);
+}
+
+div {
+    background-color: rgb(19, 19, 46);
 }
 
 h1{
