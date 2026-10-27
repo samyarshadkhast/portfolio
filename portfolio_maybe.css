@@ -26,34 +26,31 @@ h1{
 p{
     color: white;
     font-size: 18px;
-    margin:5px
+    margin:10px
 }
 
 .img1{
-    margin-right:20px;
+    padding-top:0px;
     margin-bottom:9px;
     padding-bottom: 0px;
-    float: left;
-    max-width: 40%;
+    max-width: 100%;
 }
 
-.img2{
-    float: right;
-    margin-left:20px;
-    margin-bottom:9px;
-    padding-bottom: 0px;
-    max-width: 40%;
+td{
+    vertical-align: top;
+    padding:5px;
+
 }
 
 footer{
     text-align:center;
     padding: 10px;
-    font-size: 24px;
+    font-size: 28px;
     background-color: rgb(204, 223, 240);
     letter-spacing: 3px;
 }
 
-a{
+.links{
     font-size: 16px;
     color: rgb(0, 0, 0);
     letter-spacing: 1px;
@@ -63,8 +60,15 @@ a:hover {
     color:red;
 }
 
-div{ 
-    display: flex;             
-    align-items: center;       
-    gap: 30px;                 
+table{
+    max-width:100%;
+}
+
+.learnmore{
+    color:white;
+    font-size: 18px;
+    margin:10px;
+    text-decoration: underline;
+    font-weight: bold;
+
 }
